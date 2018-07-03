@@ -1,0 +1,17 @@
+﻿@{
+  ViewData["Title"] = "Home Page";
+}
+
+    <div>
+      <h1>Microsoft Office 365 Group Manager</h1>
+      <p>
+        This web application will aide in the monitoring and management of Office 365 Groups.
+      </p>
+      <p>
+        This app requires administrative consent to the directory supporting the Office 365 tenant.
+        Before visiting the other pages, have a tenant administrator <a asp-controller="Account" asp-action="ConnectAADTenant">provide consent</a>.
+      </p>
+    </div>
+@section scripts {
+
+}
